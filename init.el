@@ -1,3 +1,6 @@
+;; Move customisation stuff to a different file
+(setq custom-file (locate-user-emacs-file "custom-vars.el"))
+(load custom-file 'noerror 'nomessage)
 
 ;; Define the beginning of the path
 (defconst user-init-dir
@@ -14,23 +17,11 @@
   (load-file (expand-file-name file user-init-dir)))
 
 ;; Load all necessary files
-(load-user-file "visual.el")
-(load-user-file "melpa-config.el")
-(load-user-file "extra-keybinds.el")
-
-
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   '("f681100b27d783fefc3b62f44f84eb7fa0ce73ec183ebea5903df506eb314077" default))
- '(package-selected-packages '(dracula-theme)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(load-user-file "main/use-package-setup.el")
+(load-user-file "main/melpa-config.el")
+(load-user-file "main/visual.el")
+(load-user-file "main/global-modes.el")
+(load-user-file "main/extra-keybinds.el")
+(load-user-file "main/which-key.el")
+(load-user-file "main/smooth-scrolling.el")
+(load-user-file "main/elcord-setup.el")

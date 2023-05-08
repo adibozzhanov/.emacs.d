@@ -1,0 +1,25 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/mow/.emacs.d/main/global-modes.el" . 325)
+ ("/home/mow/.emacs.d/init.el" . 640)
+ ("/home/mow/.emacs.d/main/extra-keybinds.el" . 237)
+ ("/home/mow/.emacs.d/main/melpa-config.el" . 20)
+ ("/home/mow/.emacs.d/"
+  (dired-filename . "/home/mow/.emacs.d/main"))
+ ("/home/mow/.emacs.d/main/"
+  (dired-filename . "/home/mow/.emacs.d/main/visual.el"))
+ ("/home/mow/.emacs.d/main/visual.el" . 438)
+ ("/home/mow/"
+  (dired-filename . "/home/mow/.emacs.d"))
+ ("/home/mow/Documents/code/"
+  (dired-filename . "/home/mow/Documents/code/.."))
+ ("/home/mow/Documents/"
+  (dired-filename . "/home/mow/Documents/code"))
+ ("/home/mow/.emacs.d/elpa/elcord-20230428.1334/elcord-autoloads.el" . 1294)
+ ("/home/mow/.emacs.d/elpa/smooth-scrolling-20161002.1949/smooth-scrolling-autoloads.el" . 3886)
+ ("/home/mow/.emacs.d/elpa/which-key-20230330.2121/which-key-autoloads.el" . 7295)
+ ("/home/mow/.emacs.d/auto-save-list/"
+  (dired-filename . "/home/mow/.emacs.d/auto-save-list/.."))
+ ("/home/mow/.emacs.d/eln-cache/"
+  (dired-filename . "/home/mow/.emacs.d/eln-cache/.."))
+ ("/home/mow/.emacs.d/elpa/"
+  (dired-filename . "/home/mow/.emacs.d/elpa/..")))

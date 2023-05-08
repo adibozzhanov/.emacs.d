@@ -11,5 +11,6 @@
 
 ;; General visual flair
 (set-frame-parameter (selected-frame) 'alpha '(95 95)) ; Transparency
+(use-package dracula-theme)
 (load-theme 'dracula t) ; Dracula theme is a must
 (show-paren-mode)

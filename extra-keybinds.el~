@@ -1,2 +1,0 @@
-(require 'bind-key)
-(bind-key "M-g" 'goto-line)
