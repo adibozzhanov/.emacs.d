@@ -1,0 +1,1 @@
+(recentf-mode 1)
