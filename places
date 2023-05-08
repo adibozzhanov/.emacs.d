@@ -1,25 +1,49 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/mow/.emacs.d/main/global-modes.el" . 325)
- ("/home/mow/.emacs.d/init.el" . 640)
- ("/home/mow/.emacs.d/main/extra-keybinds.el" . 237)
- ("/home/mow/.emacs.d/main/melpa-config.el" . 20)
- ("/home/mow/.emacs.d/"
-  (dired-filename . "/home/mow/.emacs.d/main"))
- ("/home/mow/.emacs.d/main/"
-  (dired-filename . "/home/mow/.emacs.d/main/visual.el"))
- ("/home/mow/.emacs.d/main/visual.el" . 438)
+(("/home/mow/Documents/"
+  (dired-filename . "/home/mow/Documents/.."))
  ("/home/mow/"
   (dired-filename . "/home/mow/.emacs.d"))
+ ("/home/mow/.emacs.d/"
+  (dired-filename . "/home/mow/.emacs.d/code"))
  ("/home/mow/Documents/code/"
-  (dired-filename . "/home/mow/Documents/code/.."))
- ("/home/mow/Documents/"
-  (dired-filename . "/home/mow/Documents/code"))
- ("/home/mow/.emacs.d/elpa/elcord-20230428.1334/elcord-autoloads.el" . 1294)
- ("/home/mow/.emacs.d/elpa/smooth-scrolling-20161002.1949/smooth-scrolling-autoloads.el" . 3886)
- ("/home/mow/.emacs.d/elpa/which-key-20230330.2121/which-key-autoloads.el" . 7295)
+  (dired-filename . "/home/mow/Documents/code/random"))
+ ("/home/mow/Documents/code/random/"
+  (dired-filename . "/home/mow/Documents/code/random/thing.py"))
+ ("/home/mow/Documents/code/random/thing.py" . 10)
+ ("/home/mow/.emacs.d/init.el" . 713)
+ ("/home/mow/.emacs.d/code/code.el" . 58)
+ ("/home/mow/.emacs.d/code/"
+  (dired-filename . "/home/mow/.emacs.d/code/python.el"))
+ ("/home/mow/.emacs.d/code/python.el" . 28)
+ ("/home/mow/.emacs.d/elpa/format-all-20230428.1823/format-all-autoloads.el" . 3597)
+ ("/home/mow/.emacs.d/elpa/inheritenv-20210204.354/inheritenv-autoloads.el" . 802)
+ ("/home/mow/.emacs.d/elpa/language-id-20230214.710/language-id-autoloads.el" . 411)
+ ("/home/mow/.emacs.d/elpa/elpy-20230402.1946/elpy-autoloads.el" . 2559)
+ ("/home/mow/.emacs.d/elpa/company-20230416.2034/company-autoloads.el" . 12369)
+ ("/home/mow/.emacs.d/elpa/highlight-indentation-20210221.1418/highlight-indentation-autoloads.el" . 2235)
+ ("/home/mow/.emacs.d/elpa/pyvenv-20211014.707/pyvenv-autoloads.el" . 3208)
+ ("/home/mow/.emacs.d/elpa/yasnippet-20200604.246/yasnippet-autoloads.el" . 2345)
+ ("/home/mow/.emacs.d/elpa/s-20220902.1511/s-autoloads.el" . 351)
+ ("/home/mow/.emacs.d/elpa/ligature-20220808.1225/ligature-autoloads.el" . 3315)
+ ("/home/mow/.emacs.d/main/"
+  (dired-filename . "/home/mow/.emacs.d/main/main.el"))
+ ("/home/mow/.emacs.d/main/main.el" . 373)
  ("/home/mow/.emacs.d/auto-save-list/"
   (dired-filename . "/home/mow/.emacs.d/auto-save-list/.."))
  ("/home/mow/.emacs.d/eln-cache/"
   (dired-filename . "/home/mow/.emacs.d/eln-cache/.."))
+ ("/home/mow/.emacs.d/elpa/dracula-theme-20230405.1844/"
+  (dired-filename . "/home/mow/.emacs.d/elpa/dracula-theme-20230405.1844/.."))
+ ("/home/mow/.emacs.d/elpa/bind-key-20230203.2004/"
+  (dired-filename . "/home/mow/.emacs.d/elpa/bind-key-20230203.2004/.."))
+ ("/home/mow/.emacs.d/elpa/elcord-20230428.1334/"
+  (dired-filename . "/home/mow/.emacs.d/elpa/elcord-20230428.1334/.."))
  ("/home/mow/.emacs.d/elpa/"
-  (dired-filename . "/home/mow/.emacs.d/elpa/..")))
+  (dired-filename . "/home/mow/.emacs.d/elpa/.."))
+ ("/home/mow/.emacs.d/main/extra-keybinds.el" . 237)
+ ("/home/mow/.emacs.d/main/global-modes.el" . 325)
+ ("/home/mow/.emacs.d/main/melpa-config.el" . 20)
+ ("/home/mow/.emacs.d/main/visual.el" . 438)
+ ("/home/mow/.emacs.d/elpa/elcord-20230428.1334/elcord-autoloads.el" . 1294)
+ ("/home/mow/.emacs.d/elpa/smooth-scrolling-20161002.1949/smooth-scrolling-autoloads.el" . 3886)
+ ("/home/mow/.emacs.d/elpa/which-key-20230330.2121/which-key-autoloads.el" . 7295))
