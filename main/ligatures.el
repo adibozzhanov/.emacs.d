@@ -27,5 +27,4 @@
                                        "|}"
                                        "|>"
                                        ))
-  ;; per mode with `ligature-mode'.
   (global-ligature-mode t))

@@ -7,3 +7,6 @@
 
 ;; Load config files per each language
 (load-user-file "code/python.el")
+(load-user-file "code/markdown.el")
+(load-user-file "code/docker.el")
+(load-user-file "code/yaml.el")
