@@ -7,7 +7,9 @@
 
 ;; Lines
 (global-display-line-numbers-mode 1) ; Show line numbers
-(setq display-line-numbers 'relative) ; relative line numbers
+(setq display-line-numbers-type 'relative)
+
+
 
 ;; General visual flair
 (set-frame-parameter (selected-frame) 'alpha '(95 95)) ; Transparency

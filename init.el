@@ -20,4 +20,3 @@
 (load-user-file "main/main.el")
 ;; Load all language specific files
 (load-user-file "code/code.el")
-
