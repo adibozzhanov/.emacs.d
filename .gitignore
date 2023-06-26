@@ -1,7 +1,9 @@
 # Ignore everything
-*
+/*
+
 # EXCEPT these
 !init.el
-!code/
-!main/
 !.gitignore
+!/code/
+!/main/
+
