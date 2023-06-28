@@ -16,3 +16,4 @@
 (use-package dracula-theme)
 (load-theme 'dracula t) ; Dracula theme is a must
 (show-paren-mode)
+(set-default 'truncate-lines t)

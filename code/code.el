@@ -10,3 +10,5 @@
 (load-user-file "code/markdown.el")
 (load-user-file "code/docker.el")
 (load-user-file "code/yaml.el")
+(load-user-file "code/typescript.el")
+(load-user-file "code/terraform.el")

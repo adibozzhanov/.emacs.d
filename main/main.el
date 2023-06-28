@@ -5,6 +5,6 @@
 (load-user-file "main/extra-keybinds.el")
 (load-user-file "main/which-key.el")
 (load-user-file "main/smooth-scrolling.el")
-(load-user-file "main/elcord-setup.el")
-(load-user-file "main/ligatures.el")
+;;(load-user-file "main/elcord-setup.el")
+;;(load-user-file "main/ligatures.el")
 (load-user-file "main/visual.el")
