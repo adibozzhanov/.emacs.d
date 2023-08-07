@@ -12,3 +12,8 @@
 (load-user-file "code/yaml.el")
 (load-user-file "code/typescript.el")
 (load-user-file "code/terraform.el")
+(load-user-file "code/json.el")
+(load-user-file "code/etags-update.el")
+(load-user-file "code/org-mode.el")
+
+(etags-update-mode)

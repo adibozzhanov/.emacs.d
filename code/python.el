@@ -31,6 +31,8 @@
   :hook ((lsp-mode . lsp-enable-which-key-integration))
   :commands (lsp lsp-deferred))
 
+(setq +format-with-lsp nil)
+
 (use-package lsp-pyright
   :ensure t
   :defer t
