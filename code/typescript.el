@@ -14,7 +14,10 @@
   (define-derived-mode typescriptreact-mode typescript-mode
     "TypeScript TSX")
   (add-to-list 'auto-mode-alist '("\\.tsx?\\'" . typescriptreact-mode))
-  (add-to-list 'tree-sitter-major-mode-language-alist '(typescriptreact-mode . tsx)))
+  (add-to-list 'tree-sitter-major-mode-language-alist '(typescriptreact-mode . tsx))
+  (add-to-list 'lsp--formatting-indent-alist '(typescript-tsx-mode . typescript-indent-level))
+  (setq-default typescript-indent-level 2))
+
 
 (use-package tsi
   :after tree-sitter
@@ -29,4 +32,9 @@
 
 (use-package lsp-mode
   :init
-  (add-hook `typescript-mode-hook (lambda () (lsp-mode 1))))
+  (add-hook 'typescript-mode-hook (lambda () (lsp-mode 1))))
+
+
+(use-package format-all
+  :init
+  (add-hook 'typescript-mode-hook (lambda () (format-all-mode 1))))
