@@ -32,7 +32,9 @@
 
 (use-package lsp-mode
   :init
-  (add-hook 'typescript-mode-hook (lambda () (lsp-mode 1))))
+  (add-hook 'typescript-mode-hook (lambda () (lsp-mode 1)))
+  (setq warning-minimum-level ':error)
+  )
 
 
 (use-package format-all
