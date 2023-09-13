@@ -16,5 +16,6 @@
 (load-user-file "code/etags-update.el")
 (load-user-file "code/org-mode.el")
 (load-user-file "code/projectile.el")
+(load-user-file "code/magit.el")
 
 (etags-update-mode)
