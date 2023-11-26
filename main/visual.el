@@ -10,7 +10,7 @@
 (setq display-line-numbers-type 'relative)
 
 ;; General visual flair
-(set-frame-parameter (selected-frame) 'alpha '(90 90)) ; Transparency
+(set-frame-parameter (selected-frame) 'alpha '(95 95)) ; Transparency
 (use-package dracula-theme)
 (load-theme 'dracula t) ; Dracula theme is a must
 (show-paren-mode)

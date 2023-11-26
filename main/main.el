@@ -9,3 +9,4 @@
 ;;(load-user-file "main/ligatures.el")
 (load-user-file "main/visual.el")
 (load-user-file "main/quelpa.el")
+(load-user-file "main/dashboard.el")
