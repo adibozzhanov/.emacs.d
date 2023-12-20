@@ -12,7 +12,7 @@
 (setq dashboard-center-content t)
 (setq dashboard-show-shortcuts t)
 (setq dashboard-set-navigator t)
-(setq dashboard-init-info "You are safe here. Nobody can hurt you here. Just keep coding and you will be fine.")
+(setq dashboard-init-info "Remember to push changes to your emacs config.")
 (setq dashboard-set-footer nil)
 (setq dashboard-items '((recents  . 5)
 			(bookmarks . 5)
