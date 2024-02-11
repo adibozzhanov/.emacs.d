@@ -18,5 +18,6 @@
 (load-user-file "code/projectile.el")
 (load-user-file "code/magit.el")
 (load-user-file "code/csv.el")
+(load-user-file "code/latex.el")
 
 (etags-update-mode)

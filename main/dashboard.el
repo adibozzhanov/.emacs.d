@@ -12,7 +12,7 @@
 (setq dashboard-center-content t)
 (setq dashboard-show-shortcuts t)
 (setq dashboard-set-navigator t)
-(setq dashboard-init-info "Remember to push changes to your emacs config.")
+(setq dashboard-init-info "The greatest code is written after 11pm on a saturday night.")
 (setq dashboard-set-footer nil)
 (setq dashboard-items '((recents  . 5)
 			(bookmarks . 5)
