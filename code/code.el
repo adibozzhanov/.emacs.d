@@ -19,5 +19,6 @@
 (load-user-file "code/magit.el")
 (load-user-file "code/csv.el")
 (load-user-file "code/latex.el")
+(load-user-file "code/html.el")
 
 (etags-update-mode)
