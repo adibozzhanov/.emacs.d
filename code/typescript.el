@@ -1,42 +1,21 @@
-(use-package tree-sitter
-  :ensure t
-  :config
-  (global-tree-sitter-mode)
-  (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
-
-(use-package tree-sitter-langs
-  :ensure t
-  :after tree-sitter)
+(defun setup-tide-mode ()
+  (interactive)
+  (tide-setup)
+  (flycheck-mode +1)
+  (setq flycheck-check-syntax-automatically '(save mode-enabled))
+  (eldoc-mode +1)
+  (tide-hl-identifier-mode +1)
+  (company-mode +1))
 
 (use-package typescript-mode
-  :after tree-sitter
+  :ensure t
   :config
-  (define-derived-mode typescriptreact-mode typescript-mode
-    "TypeScript TSX")
-  (add-to-list 'auto-mode-alist '("\\.tsx?\\'" . typescriptreact-mode))
-  (add-to-list 'tree-sitter-major-mode-language-alist '(typescriptreact-mode . tsx))
-  (add-to-list 'lsp--formatting-indent-alist '(typescript-tsx-mode . typescript-indent-level))
-  (setq-default typescript-indent-level 2))
+  (setq typescript-indent-level 2)
+  (add-hook 'typescript-mode #'subword-mode))
 
-
-(use-package tsi
-  :after tree-sitter
-  :quelpa (tsi :fetcher github :repo "orzechowskid/tsi.el")
-  :commands (tsi-typescript-mode tsi-json-mode tsi-css-mode)
+(use-package tide
   :init
-  (add-hook 'typescript-mode-hook (lambda () (tsi-typescript-mode 1)))
-  (add-hook 'json-mode-hook (lambda () (tsi-json-mode 1)))
-  (add-hook 'css-mode-hook (lambda () (tsi-css-mode 1)))
-  (add-hook 'scss-mode-hook (lambda () (tsi-scss-mode 1))))
-
-
-(use-package lsp-mode
-  :init
-  (add-hook 'typescript-mode-hook (lambda () (lsp-mode 1)))
-  (setq warning-minimum-level ':error)
-  )
-
-
-(use-package format-all
-  :init
-  (add-hook 'typescript-mode-hook (lambda () (format-all-mode 1))))
+  :ensure t
+  :after (typescript-mode company flycheck)
+  :hook ((typescript-mode . tide-setup)
+         (typescript-mode . tide-hl-identifier-mode)))

@@ -1,5 +1,3 @@
-
-
 (use-package projectile
   :ensure t
   :init
