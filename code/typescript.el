@@ -14,8 +14,9 @@
   (add-hook 'typescript-mode #'subword-mode))
 
 (use-package tide
-  :init
   :ensure t
-  :after (typescript-mode company flycheck)
-  :hook ((typescript-mode . tide-setup)
-         (typescript-mode . tide-hl-identifier-mode)))
+  :after (company flycheck)
+  :hook ((typescript-ts-mode . tide-setup)
+         (tsx-ts-mode . tide-setup)
+         (typescript-ts-mode . tide-hl-identifier-mode)
+         (before-save . tide-format-before-save)))
