@@ -15,6 +15,7 @@
 
 (use-package tide
   :ensure t
+  :bind (("M-p" . tide-references) ("M-1" . tide-fix))
   :after (company flycheck)
   :hook ((typescript-ts-mode . tide-setup)
          (tsx-ts-mode . tide-setup)

@@ -10,3 +10,4 @@
 (load-user-file "main/visual.el")
 (load-user-file "main/dashboard.el")
 (load-user-file "main/killring.el")
+(load-user-file "main/undo-tree.el")
