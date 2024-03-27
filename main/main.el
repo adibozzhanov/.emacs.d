@@ -11,3 +11,6 @@
 (load-user-file "main/dashboard.el")
 (load-user-file "main/killring.el")
 (load-user-file "main/undo-tree.el")
+(load-user-file "main/popper.el")
+(load-user-file "main/shackle.el")
+(load-user-file "main/dired.el")

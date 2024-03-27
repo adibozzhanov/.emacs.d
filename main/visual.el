@@ -6,7 +6,7 @@
 (menu-bar-mode -1) ; Bye menu bar
 
 ;; Lines
-(global-display-line-numbers-mode 1) ; Show line numbers
+(add-hook 'prog-mode-hook 'display-line-numbers-mode)
 (setq display-line-numbers-type 'relative)
 
 ;; General visual flair
