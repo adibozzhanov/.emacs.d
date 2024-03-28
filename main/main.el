@@ -14,3 +14,6 @@
 (load-user-file "main/popper.el")
 (load-user-file "main/shackle.el")
 (load-user-file "main/dired.el")
+(load-user-file "main/vertico.el")
+(load-user-file "main/marginalia.el")
+(load-user-file "main/consult.el")
