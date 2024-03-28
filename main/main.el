@@ -17,3 +17,4 @@
 (load-user-file "main/vertico.el")
 (load-user-file "main/marginalia.el")
 (load-user-file "main/consult.el")
+(load-user-file "main/orderless.el")
