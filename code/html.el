@@ -13,6 +13,7 @@
         web-mode-enable-auto-pairing t
         web-mode-enable-comment-keywords t
         web-mode-enable-current-element-highlight t
+	web-mode-enable-auto-quoting nil
         )
   (add-hook 'web-mode-hook
             (lambda ()
