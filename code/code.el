@@ -19,3 +19,4 @@
 (load-user-file "code/html.el")
 (load-user-file "code/fish.el")
 (load-user-file "code/copilot.el")
+(load-user-file "code/treemacs.el")

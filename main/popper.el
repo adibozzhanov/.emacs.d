@@ -12,6 +12,7 @@
 	  "\\*undo-tree\\*"
 	  "\\magit: .*"
 	  "\\*Kill Ring\\*"
+	  "\\*lsp-ui-imenu\\*"
           help-mode
           compilation-mode))
   (popper-mode +1)

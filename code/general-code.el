@@ -56,4 +56,5 @@
 
 (use-package lsp-ui
   :ensure t
+  :bind (("C-c l i" . lsp-ui-imenu))
   :commands lsp-ui-mode)
