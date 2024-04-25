@@ -3,7 +3,7 @@
   :init
   (projectile-mode +1)
   :bind (:map projectile-mode-map
-              ("s-p" . projectile-command-map)
+              ("M-p" . projectile-command-map)
               ("C-c p" . projectile-command-map))
   :config
   (projectile-register-project-type 'npm '("package.json")

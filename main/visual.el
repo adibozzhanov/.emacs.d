@@ -13,8 +13,13 @@
 (add-to-list 'default-frame-alist '(drag-internal-border . 1))
 (add-to-list 'default-frame-alist '(internal-border-width . 5))
 ;; General visual flair
-(set-frame-parameter (selected-frame) 'alpha '(95 95)) ; Transparency
-(use-package dracula-theme)
-(load-theme 'dracula t) ; Dracula theme is a must
+(set-frame-parameter (selected-frame) 'alpha '(98 98)) ; Transparency
+
+(use-package timu-rouge-theme
+  :ensure t
+  :config
+  (load-theme 'timu-rouge t))
+
+ ; Dracula theme is a must
 (show-paren-mode)
 (set-default 'truncate-lines t)

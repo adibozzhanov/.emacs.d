@@ -1,6 +1,6 @@
 ;; Load all necessary files
-(load-user-file "main/visual.el")
 (load-user-file "main/use-package-setup.el")
+(load-user-file "main/visual.el")
 (load-user-file "main/melpa-config.el")
 (load-user-file "main/quelpa.el")
 (load-user-file "main/global-modes.el")
