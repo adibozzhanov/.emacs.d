@@ -18,3 +18,6 @@
 (load-user-file "main/marginalia.el")
 (load-user-file "main/consult.el")
 (load-user-file "main/orderless.el")
+(load-user-file "main/ace-window.el")
+(load-user-file "main/smudge.el")
+(load-user-file "main/move-text.el")

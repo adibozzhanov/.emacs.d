@@ -13,6 +13,7 @@
 	  "\\magit: .*"
 	  "\\*Kill Ring\\*"
 	  "\\*lsp-ui-imenu\\*"
+	  "todo.md"
           help-mode
           compilation-mode))
   (popper-mode +1)
