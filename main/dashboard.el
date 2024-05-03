@@ -11,3 +11,8 @@
   (dashboard-startupify-list '(dashboard-insert-items))
   :config
   (dashboard-setup-startup-hook))
+
+(defun dashboard-setup-startup-hook ()
+    (add-hook 'after-init-hook
+	      (lambda ()
+		(dashboard-refresh-buffer))))

@@ -1,7 +1,8 @@
 ;; Load all necessary files
-(load-user-file "main/use-package-setup.el")
-(load-user-file "main/visual.el")
 (load-user-file "main/melpa-config.el")
+(load-user-file "main/use-package-setup.el")
+(load-user-file "main/straight.el")
+(load-user-file "main/visual.el")
 (load-user-file "main/quelpa.el")
 (load-user-file "main/global-modes.el")
 (load-user-file "main/all-the-icons.el")
@@ -22,3 +23,4 @@
 (load-user-file "main/smudge.el")
 (load-user-file "main/move-text.el")
 (load-user-file "main/telega.el")
+(load-user-file "main/lambda-line.el")
