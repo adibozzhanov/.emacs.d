@@ -21,3 +21,4 @@
 (load-user-file "main/ace-window.el")
 (load-user-file "main/smudge.el")
 (load-user-file "main/move-text.el")
+(load-user-file "main/telega.el")
