@@ -43,6 +43,7 @@
   (setq lsp-ui-sideline-show-hover t)
   (setq lsp-ui-sideline-show-diagnostics t)
   (setq lsp-enable-indentation nil)
+  (add-hook 'kotlin-mode-hook (lambda () (lsp-mode 1)))
   :custom
   (lsp-eldoc-enable-hover nil)
   (lsp-signature-auto-activate nil)

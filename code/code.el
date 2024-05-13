@@ -17,4 +17,5 @@
 (load-user-file "code/latex.el")
 (load-user-file "code/html.el")
 (load-user-file "code/fish.el")
+(load-user-file "code/kotlin.el")
 (load-user-file "code/copilot.el")

@@ -23,4 +23,4 @@
 (load-user-file "main/smudge.el")
 (load-user-file "main/move-text.el")
 (load-user-file "main/telega.el")
-(load-user-file "main/lambda-line.el")
+(load-user-file "main/minions.el")
