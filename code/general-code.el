@@ -40,20 +40,29 @@
   (setq lsp-keymap-prefix "C-c l")
   (setq warning-minimum-level ':error)
   (setq lsp-log-io nil)
-  (setq lsp-ui-sideline-show-hover t)
-  (setq lsp-ui-sideline-show-diagnostics t)
   (setq lsp-enable-indentation nil)
+  (setq gc-cons-threshold 500000000)
+  (setq read-process-output-max (* (* 1024 1024) 3)) ;; 3mb
   (add-hook 'kotlin-mode-hook (lambda () (lsp-mode 1)))
   :custom
   (lsp-eldoc-enable-hover nil)
   (lsp-signature-auto-activate nil)
-  (lsp-completion-enable t)
   :hook (
 	 (lsp-mode . lsp-enable-which-key-integration)
 	 )
   :commands (lsp lsp-mode lsp-deferred))
 
+(use-package lsp-treemacs
+  :ensure t
+  :after lsp-mode
+  :config
+  (lsp-treemacs-sync-mode 1))
+
+
 (use-package lsp-ui
   :ensure t
+  :init
+  (setq lsp-ui-sideline-show-hover t)
+  (setq lsp-ui-sideline-show-diagnostics t)
   :bind (("C-c l i" . lsp-ui-imenu))
   :commands lsp-ui-mode)

@@ -15,6 +15,7 @@
 	  "\\*Kill Ring\\*"
 	  "\\*lsp-ui-imenu\\*"
 	  "\\*Telega Root\\*"
+	  "\\*elogcat\\*"
 	  "todo.md"
           help-mode
 	  telega-chat-mode

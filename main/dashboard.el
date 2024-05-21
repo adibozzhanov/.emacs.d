@@ -1,18 +1,21 @@
-;; use-package with package.el:
+
+
+
+
 (use-package dashboard
   :ensure t
   :custom
   (dashboard-center-content t)
-  (dashboard-vertically-center-content t)
   (dashboard-show-shortcuts t)
   (dashboard-items '((recents  . 5)
-		     (bookmarks . 5)
+		     (bookmarks . 20)
                      (projects . 5)))
   (dashboard-startupify-list '(dashboard-insert-items))
   :config
-  (dashboard-setup-startup-hook))
+  (dashboard-setup-startup-hook)
+  (add-hook 'dashboard-mode-hook (lambda () (setq-local mode-line-format nil)))
+  :bind
+  ("C-c d" . dashboard-open)
+  ("C-c C-d" . dashboard-open))
 
-(defun dashboard-setup-startup-hook ()
-    (add-hook 'after-init-hook
-	      (lambda ()
-		(dashboard-refresh-buffer))))
+(dashboard-open)

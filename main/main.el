@@ -9,7 +9,6 @@
 (load-user-file "main/extra-keybinds.el")
 (load-user-file "main/which-key.el")
 (load-user-file "main/smooth-scrolling.el")
-(load-user-file "main/dashboard.el")
 (load-user-file "main/killring.el")
 (load-user-file "main/undo-tree.el")
 (load-user-file "main/popper.el")
@@ -24,3 +23,5 @@
 (load-user-file "main/move-text.el")
 (load-user-file "main/telega.el")
 (load-user-file "main/minions.el")
+(load-user-file "main/page-break-lines.el")
+(load-user-file "main/dashboard.el")

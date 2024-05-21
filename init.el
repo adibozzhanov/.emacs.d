@@ -2,6 +2,8 @@
 (setq custom-file (locate-user-emacs-file "custom-vars.el"))
 (load custom-file 'noerror 'nomessage)
 
+(setenv "JAVA_HOME" "/usr/lib/jvm/java-17-openjdk-amd64")
+
 ;; Define the beginning of the path
 (defconst user-init-dir
   (cond ((boundp 'user-emacs-directory)

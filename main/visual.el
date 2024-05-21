@@ -1,4 +1,4 @@
-(setq inhibit-startup-message t) ; Bye splash screen
+
 
 ;; Remove useless UI shit
 (tool-bar-mode -1) ; Bye tool bar
