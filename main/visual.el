@@ -15,10 +15,10 @@
 ;; General visual flair
 (set-frame-parameter (selected-frame) 'alpha '(98 98)) ; Transparency
 
-(use-package timu-rouge-theme
+(use-package monokai-pro-theme
   :ensure t
   :config
-  (load-theme 'timu-rouge t))
+  (load-theme 'monokai-pro-machine t))
 
  ; Dracula theme is a must
 (show-paren-mode)
