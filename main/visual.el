@@ -12,8 +12,7 @@
 (setq default-frame-alist '((undecorated . t)))
 (add-to-list 'default-frame-alist '(drag-internal-border . 1))
 (add-to-list 'default-frame-alist '(internal-border-width . 5))
-;; General visual flair
-(set-frame-parameter (selected-frame) 'alpha '(98 98)) ; Transparency
+
 
 (use-package monokai-pro-theme
   :ensure t
