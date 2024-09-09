@@ -5,7 +5,8 @@
 (scroll-bar-mode -1) ; Bye scroll bar
 (menu-bar-mode -1) ; Bye menu bar
 
-(push '(vertical-scroll-bars . nil) default-frame-alist)
+(add-to-list 'default-frame-alist
+             '(vertical-scroll-bars . nil))
 
 ;; Lines
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
