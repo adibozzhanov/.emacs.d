@@ -1,7 +1,3 @@
-
-
-
-
 (use-package dashboard
   :ensure t
   :custom
@@ -18,4 +14,5 @@
   ("C-c d" . dashboard-open)
   ("C-c C-d" . dashboard-open))
 
+(setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
 (dashboard-open)
