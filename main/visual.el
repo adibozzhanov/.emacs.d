@@ -5,6 +5,8 @@
 (scroll-bar-mode -1) ; Bye scroll bar
 (menu-bar-mode -1) ; Bye menu bar
 
+(push '(vertical-scroll-bars . nil) default-frame-alist)
+
 ;; Lines
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
 (setq display-line-numbers-type 'relative)
@@ -19,7 +21,6 @@
   :config
   (load-theme 'monokai-pro-machine t))
 
- ; Dracula theme is a must
 (show-paren-mode)
 (set-default 'truncate-lines t)
 
