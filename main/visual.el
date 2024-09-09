@@ -5,8 +5,12 @@
 (scroll-bar-mode -1) ; Bye scroll bar
 (menu-bar-mode -1) ; Bye menu bar
 
-(add-to-list 'default-frame-alist
-             '(vertical-scroll-bars . nil))
+
+(defun my/disable-scroll-bars (frame)
+  (modify-frame-parameters frame
+                           '((vertical-scroll-bars . nil)
+                             (horizontal-scroll-bars . nil))))
+(add-hook 'after-make-frame-functions 'my/disable-scroll-bars)
 
 ;; Lines
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
