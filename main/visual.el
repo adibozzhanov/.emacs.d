@@ -28,6 +28,7 @@
 
 (show-paren-mode)
 (set-default 'truncate-lines t)
+(set-frame-font "Hurmit Nerd Font Mono 12" nil t)
 
 ;; emoji support
 (set-fontset-font t 'symbol
